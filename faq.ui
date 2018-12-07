@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>978</width>
+    <height>676</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>170</red>
+        <green>170</green>
+        <blue>170</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>170</red>
+        <green>170</green>
+        <blue>170</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>170</red>
+        <green>170</green>
+        <blue>170</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>127</red>
+        <green>127</green>
+        <blue>127</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_32">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Century Gothic</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>What is the Prisoner's Dilemma?</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_9">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>690</y>
+     <width>251</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_40">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>670</y>
+     <width>261</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>correctly.</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>281</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;The prisoner’s dilemma, one of the most famous game theories,&lt;/span&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt; basically provides a framework for understanding how to strike a balance between cooperation and competition, and is a very useful tool for strategic decision-making. &lt;/span&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;As a result, it finds application in diverse areas ranging from business, finance, economics and political science to philosophy, psychology, biology and sociology.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>281</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;Two suspects have been apprehended for a crime and are now in separate rooms in a police station, with no means of communicating with each other. The prosecutor has separately told them the following:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;If you confess and agree to testify against the other suspect, who does not confess, the charges against you will be dropped and you will get off for free.If you do not confess but the other suspect does, you will be convicted and the prosecution will seek the maximum sentence of three years.If both of you confess, you will both be sentenced to two years in prison.If neither of you confess, you will both be charged with misdemeanors and will be sentenced to one year in prison.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;What should the suspects do? This is the essence of the prisoner’s dilemma.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_33">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Century Gothic</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>How does it work?</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>370</y>
+     <width>281</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;Let’s begin by constructing a payoff matrix as shown in the table below. The “payoff” here is shown in terms of the length of a prison sentence (as symbolized by the negative sign; the higher the number the better). The terms “cooperate” and “defect” refer to the suspects cooperating with each other (as for example, if neither of them confesses) or defecting (i.e. not cooperating with the other player, which is the case where one suspect confesses, but the other does not). The first numeral in cells (a) through (d) shows the payoff for Suspect A, while the second numeral shows it for Suspect B.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_34">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Century Gothic</family>
+     <pointsize>13</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>What's the smartest way to play?</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_4">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>50</y>
+     <width>281</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;A classic example of prisoner’s dilemma in the real world is encountered when two competitors are battling it out in the marketplace. Many sectors of the economy have two main rivals. In the U.S., for example, the fierce rivalry between Coca-Cola &lt;/span&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;and PepsiCo in soft drinks, and Home Depot versus Lowe's in building supplies, has given rise to numerous case studies in business schools. Other fierce rivalries include Starbucks versus Tim Horton’s in Canada, and Apple versus Samsung in the global mobile phone sector.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;Consider the case of Coca-Cola versus PepsiCo, and assume the former is thinking of cutting the price of its iconic soda. If it does so, Pepsi may have no choice but to follow suit for its cola to retain its market share&lt;/span&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;. This may result in a significant drop in profits for both companies. A price drop by either company may therefore be construed as defecting, since it breaks an implicit agreement to keep prices high and maximize profits. Thus, if Coca-Cola drops its price but Pepsi continues to keep prices high, the former is defecting while the latter is cooperating (by sticking to the spirit of the implicit agreement). In this scenario, Coca-Cola may win market share and earn incremental profits by selling more colas.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#362f2d; background-color:#ffffff;&quot;&gt;Payoff Matrix&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;Let’s assume that the incremental profits that accrue to Coca-Cola and Pepsi are as follows: &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;If both keep prices high, profits for each company increase by $500 million (because of normal growth in demand). If one drops prices (i.e. defects) but the other does not (cooperates), profits increase by $750 million for the former because of greater market share, and are unchanged for the latter.If both companies reduce prices, the increase in soft drink consumption offsets the lower price, and profits for each company increase by $250 million.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;The payoff matrix looks like this (the numbers represent incremental dollar profits in hundreds of millions):&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;table border=&quot;1&quot; style=&quot; margin-top:0px; margin-bottom:30px; margin-left:0px; margin-right:0px;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot; rowspan=&quot;2&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;Coca-Cola vs. PepsiCo –&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;Payoff Matrix&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;PepsiCo&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;Cooperate&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;Defect&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td rowspan=&quot;2&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;Coca-Cola&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;Cooperate&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;500, 500&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;0, 750&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;Defect&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;750, 0&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;250, 250&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;Other oft-cited prisoner’s dilemma examples are in areas such as new product/technology development or advertising and marketing expenditures by companies.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;For example, if two firms have an implicit agreement to leave advertising budgets unchanged in a given year, their&lt;/span&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt; net income may stay at relatively high levels. But if one defects and raises its advertising budget, it may earn greater profits at the expense of the other company, as higher sales offset the increased advertising expenses. However, if both companies boost their advertising budgets, the increased advertising efforts may offset each other and prove ineffective, resulting in lower profits (due to the higher ad expenses) than would have been the case if the ad budgets were left unchanged.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:3px; margin-bottom:3px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#362f2d; background-color:#ffffff;&quot;&gt;Applications to the Economy&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;The U.S. debt deadlock between the Democrats and Republicans that springs up from time to time is a classic example of a prisoner’s dilemma.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;Let’s say the utility or benefit of resolving the U.S. debt issue would be electoral gains for the parties in the next election. Cooperation in this instance refers to the willingness of both parties to work to maintain the status quo with regard to the spiraling US budget deficit.&lt;/span&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt; Defecting implies backing away from this implicit agreement and taking the steps required to bring the deficit under control.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;If both parties cooperate and keep the economy running smoothly, some electoral gains are assured. But if Party A tries to resolve the debt issue in a proactive manner, while Party B does not cooperate, this recalcitrance may cost B votes in the next election, which may go to A. However, if both parties back away from cooperation and play hardball in an attempt to resolve the debt issue, the consequent economic turmoil (sliding markets, a possible credit downgrade, government shutdown&lt;/span&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;, etc.) may result in lower electoral gains for both parties.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:3px; margin-bottom:3px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#362f2d; background-color:#ffffff;&quot;&gt;How Can You Use It?&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;The prisoner’s dilemma can be used to aid decision-making in a number of areas in one’s personal life, such as buying a car, salary negotiations and so on.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;For example, assume you are&lt;/span&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt; in the market for a new car, and you walk into a car dealership. The utility or payoff in this case is a non-numerical attribute, i.e. satisfaction with the deal. You want to get the best possible deal in terms of price, car features, etc. while the car salesman wants to get the highest possible price to maximize his commission.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;Cooperation in this context means no haggling; you walk in, pay the sticker price (much to the salesman’s delight) and leave with a new car. On the other hand, defecting means bargaining; you want a lower price, while the salesman wants a higher price. Assigning numerical values to the levels of satisfaction, where 10 means fully satisfied with the deal and 0 implies no satisfaction, the payoff matrix is as shown below:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;table border=&quot;1&quot; style=&quot; margin-top:0px; margin-bottom:30px; margin-left:0px; margin-right:0px;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; bgcolor=&quot;#ffffff&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot; rowspan=&quot;2&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;Car Buyer  vs. Salesman –&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;Payoff Matrix&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;Salesman&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;Cooperate&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;Defect&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td rowspan=&quot;2&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;Buyer&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;Cooperate&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;(a) 7, 7&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;(c) 0,10&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;Defect&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;(b) 10, 0&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;(d) 3, 3&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;What does this matrix tell us? If you&lt;/span&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt; drive a hard bargain and get a substantial reduction in the car price, you are likely to be fully satisfied with the deal, but the salesman is likely to be unsatisfied because of the loss of commission (as can be seen in cell b). Conversely, if the salesman sticks to his guns and does not budge on price, you are likely to be unsatisfied with the deal while the salesman would be fully satisfied (cell c).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;Your satisfaction level may be less if you simply walked in and paid full sticker price (cell a). The salesman in this situation is also likely to be less than fully satisfied, since your willingness to pay full price may leave him wondering if he could have “steered” you to a more expensive model, or added some more bells and whistles to gain more&lt;/span&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt; commission.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;Cell (d) shows a much lower degree of satisfaction for both buyer and seller, since prolonged haggling may have eventually led to a reluctant compromise on the price paid for the car.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;Likewise, with salary negotiations&lt;/span&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;, you may be ill-advised to take the first offer that a potential employer makes to you (assuming you know that you’re worth more).&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;Cooperating by taking the first offer may seem like an easy solution in a difficult&lt;/span&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt; job market, but it may result in you leaving some money on the table. Defecting (i.e. negotiating) for a higher salary may indeed fetch you a fatter pay package; conversely, if the employer is not willing to pay more, you may be dissatisfied with the final offer.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;Hopefully, the salary negotiations do not turn acrimonious, since that may result in a lower level of satisfaction for you and the employer. The buyer-salesman payoff matrix shown earlier can be easily extended to show the satisfaction level for the job seeker versus employer.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:3px; margin-bottom:3px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#362f2d; background-color:#ffffff;&quot;&gt;The Bottom Line&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;The prisoner’s dilemma shows us that mere cooperation is not always in one’s best interests. In fact, when shopping for a big-ticket item such as a car, bargaining is the preferred course of action from the consumers' point of view. Otherwise, the car dealership may adopt a policy of inflexibility in price negotiations, maximizing its profits but resulting in consumers overpaying for their vehicles.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;Understanding the relative payoffs of cooperating versus defecting may stimulate you to engage in significant price negotiations before you make a big purchase.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_35">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>10</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Century Gothic</family>
+     <pointsize>14</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>What &quot;real world&quot; applications?</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_5">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>50</y>
+     <width>281</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;The iterated prisoner's dilemma is an extension of the general form except the game is repeatedly played by the same participants. An iterated prisoner's dilemma differs from the original concept of a prisoner's dilemma because participants can learn about the behavioral tendencies of their counterparty.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;Since the game is repeated, one individual can formulate a strategy that does not follow the regular logical convention of an isolated round.The iterated prisoner's dilemma game is fundamental to many theories of human cooperation and trust. Based on the assumption that the game can model transactions between two people requiring trust, cooperative behavior in populations may be modeled by a multi-player, iterated, version of the game.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;The theory behind the game has captivated many scholars over the years. More recently, organizational design researchers have used the game to model corporate strategies. The prisoner's dilemma is also now commonplace for game theories becoming popular with investment strategist. Globalization&lt;/span&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt; and integrated trade have further driven demand for financial and operational models that can describe geopolitical issues.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:3px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#362f2d; background-color:#ffffff;&quot;&gt;Example of the Iterated Prisoner's Dilemma Game&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:3px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#362f2d; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;For example, you and a colleague, are in jail and suspected of committing a crime. You are isolated from each other and do not know how the other will respond to questioning. The police invite both of you to implicate the other in the crime (defect). What happens depends on what both of you do, but neither of you know how the other will respond. If your colleague betrays you (yields to the temptation to defect) while you remain silent, then you receive the longest jail term while your colleague gets off free (and visa versa). If you both choose to cooperate with each other (not the police) by remaining silent, there is insufficient evidence to convict both of you, so you are both given a light sentence for a lesser crime. If both of you decide to defect, then you have condemned each other to slightly reduced but still heavy sentences.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;The payoff in this game is a reduction in prison sentencing of very good, fairly good, fairly bad or very bad, which is translated into a point score system as follows:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;table border=&quot;1&quot; style=&quot; margin-top:0px; margin-bottom:30px; margin-left:0px; margin-right:0px;&quot; cellspacing=&quot;1&quot; cellpadding=&quot;1&quot; bgcolor=&quot;#ffffff&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-weight:600; color:#111111;&quot;&gt;What your colleague does&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; font-style:italic; color:#111111;&quot;&gt;This table shows payoffs to you for various outcomes.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;Co-operate&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;Defect&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td rowspan=&quot;2&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;What you do&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;Co-operate&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;Fairly good.&lt;br /&gt;REWARD&lt;br /&gt;for mutual co-operation.&lt;br /&gt;3 points&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;Very bad.&lt;br /&gt;SUCKER'S PAYOFF.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;0 points&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;Defect&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;Very good.&lt;br /&gt;TEMPTATION&lt;br /&gt;to defect.&lt;br /&gt;5 points&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Source Sans Pro,sans-serif'; font-size:8pt; color:#111111;&quot;&gt;Fairly bad.&lt;br /&gt;PUNISHMENT&lt;br /&gt;for mutual defection.&lt;br /&gt;1 point&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;The game is played iteratively for a number of rounds until it is ended (as if you are repeatedly interrogated for separate crimes). The scores from each round are accumulated, so the object is to optimize the point score before reaching game over. Game over is determined randomly anywhere between 1 and 100 rounds. At the end of the game, the scores are translated into percentages of the best possible scores.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_36">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>10</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Century Gothic</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>What's an Iterated Prisoner's Dilemma?</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>530</y>
+     <width>281</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-size:8pt; background-color:#ffffff;&quot;&gt;In both isolated matches as well as iterated prisoner's dilemma tournaments, the incentives and disincentives largely dictate the success of a given strategy. For example, you can change the parameters within the payoff matrix to turn the game into Chicken instead, where you and an opponent try to scare each other into swerving while driving headfirst into one another. If you don't swerve, you get to be the &amp;quot;brave&amp;quot; one and your opponent suffers embarrassment, but if neither of you swerve, you surely crash and risk fatal injury, resulting in a catastrophic loss for each player.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;table border=&quot;1&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;&quot; cellspacing=&quot;0&quot; cellpadding=&quot;4&quot; bgcolor=&quot;#bacdd8&quot;&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Helvetica Neue,Helvetica,Arial,sans-serif'; font-size:8pt; font-weight:600; color:#3a3a3a;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Helvetica Neue,Helvetica,Arial,sans-serif'; font-size:8pt; font-weight:600; color:#3a3a3a;&quot;&gt;Swerve&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Helvetica Neue,Helvetica,Arial,sans-serif'; font-size:8pt; font-weight:600; color:#3a3a3a;&quot;&gt;Continue Straight&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Helvetica Neue,Helvetica,Arial,sans-serif'; font-size:8pt; font-weight:600; color:#3a3a3a;&quot;&gt;Swerve&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Helvetica Neue,Helvetica,Arial,sans-serif'; font-size:8pt; color:#3a3a3a;&quot;&gt;0, 0&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Helvetica Neue,Helvetica,Arial,sans-serif'; font-size:8pt; color:#3a3a3a;&quot;&gt;-1, +1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Helvetica Neue,Helvetica,Arial,sans-serif'; font-size:8pt; font-weight:600; color:#3a3a3a;&quot;&gt;Continue Straight&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Helvetica Neue,Helvetica,Arial,sans-serif'; font-size:8pt; color:#3a3a3a;&quot;&gt;+1, -1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Helvetica Neue,Helvetica,Arial,sans-serif'; font-size:8pt; color:#3a3a3a;&quot;&gt;-100, -100&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600; background-color:#ffffff;&quot;&gt;For a game to be considered a &amp;quot;Prisoner's Dilemma&amp;quot;, the following metrics must be accounted for in the payoff matrix :&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-size:8pt; background-color:#ffffff;&quot;&gt;Temptation &amp;gt; Reward &amp;gt; Punishment &amp;gt; Sucker&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:9px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#222222;&quot;&gt;Prisoner's dilemma payoff matrix&lt;/span&gt;&lt;/p&gt;
+&lt;table border=&quot;0&quot; style=&quot; float: right; margin-top:0px; margin-bottom:9px; margin-left:9px; margin-right:0px;&quot; cellspacing=&quot;2&quot; cellpadding=&quot;0&quot; bgcolor=&quot;#f8f9fa&quot;&gt;
+&lt;tr&gt;
+&lt;td style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:26px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:1%;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#222222;&quot;&gt;B&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:26px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#222222;&quot;&gt;A&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td bgcolor=&quot;#eaecf0&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#222222; background-color:#eaecf0;&quot;&gt;B stays&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;silent&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td bgcolor=&quot;#eaecf0&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#222222; background-color:#eaecf0;&quot;&gt;B&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;betrays&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td bgcolor=&quot;#eaecf0&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#222222; background-color:#eaecf0;&quot;&gt;A stays&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;silent&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:26px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;T,T&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:26px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:1%;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222;&quot;&gt;T&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:26px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;S,&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td bgcolor=&quot;#eaecf0&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#222222; background-color:#eaecf0;&quot;&gt;A&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;betrays&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:26px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;T,S&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:26px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:1%;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;P&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:26px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;P,&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;Here are other games you can play with this simulator by changing the parameters.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;Planning an Outing&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#ffffff;&quot;&gt;In this game the players want to cooperate with each other, but they disagree about the best outcome for the game.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:9px; margin-bottom:9px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#ffffff;&quot;&gt;Two friends want to meet but disagree on the venue. One prefers to watching boxing while the other prefers ballet. However, if they show up at different sites, they will be unhappy without the other. We can model this game as a two player strategic game:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;table border=&quot;0&quot; style=&quot; margin-top:17px; margin-bottom:17px; margin-left:0px; margin-right:0px;&quot; align=&quot;center&quot; cellspacing=&quot;2&quot; cellpadding=&quot;0&quot; bgcolor=&quot;#f8f9fa&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot; rowspan=&quot;2&quot; bgcolor=&quot;#c8d1b1&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#222222;&quot;&gt;Game&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; bgcolor=&quot;#fcf3d3&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#fcf3d3;&quot;&gt;Player 2&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td bgcolor=&quot;#ebe294&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#ebe294;&quot;&gt;Boxing&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td bgcolor=&quot;#ebe294&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#ebe294;&quot;&gt;Ballet&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td rowspan=&quot;2&quot; bgcolor=&quot;#fcf3d3&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#fcf3d3;&quot;&gt;Player 1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td bgcolor=&quot;#ebe294&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#ebe294;&quot;&gt;Boxing&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222;&quot;&gt;(2,1)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222;&quot;&gt;(0,0)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td bgcolor=&quot;#ebe294&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#ebe294;&quot;&gt;Ballet&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222;&quot;&gt;(0,0)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222;&quot;&gt;(1,2)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style=&quot; margin-top:9px; margin-bottom:9px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#ffffff;&quot;&gt;The table clearly shows that the best choice for the two friends is to both play the same game since neither of them will be happy without the other. The only question left is which game to play.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:9px; margin-bottom:9px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#ffffff;&quot;&gt;This game is also known as&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222;&quot;&gt; &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-style:italic; color:#222222;&quot;&gt;Bach or Stravinsky&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:9px; margin-bottom:9px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-size:8pt; font-weight:600;&quot;&gt;Matching Pennies&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#ffffff;&quot;&gt;In this game we imagine two players, each with a penny. They independently choose a side of the coin and then simultaneously show the other the chosen side. If the sides match, then Player 1 gains Player 2's penny. If the sides differ, Player 2 wins Player 1's penny.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#222222;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;table border=&quot;0&quot; style=&quot; margin-top:17px; margin-bottom:17px; margin-left:0px; margin-right:0px;&quot; align=&quot;center&quot; cellspacing=&quot;2&quot; cellpadding=&quot;0&quot; bgcolor=&quot;#f8f9fa&quot;&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;2&quot; rowspan=&quot;2&quot; bgcolor=&quot;#c8d1b1&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; font-weight:600; color:#222222;&quot;&gt;Matching Pennies&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td colspan=&quot;2&quot; bgcolor=&quot;#fcf3d3&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#fcf3d3;&quot;&gt;Player 2&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td bgcolor=&quot;#ebe294&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#ebe294;&quot;&gt;Heads&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td bgcolor=&quot;#ebe294&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#ebe294;&quot;&gt;Tails&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td rowspan=&quot;2&quot; bgcolor=&quot;#fcf3d3&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#fcf3d3;&quot;&gt;Player 1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td bgcolor=&quot;#ebe294&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#ebe294;&quot;&gt;Heads&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222;&quot;&gt;1, -1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222;&quot;&gt;-1, 1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td bgcolor=&quot;#ebe294&quot; style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222; background-color:#ebe294;&quot;&gt;Tails&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222;&quot;&gt;-1, 1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot; padding-left:5; padding-right:5; padding-top:3; padding-bottom:3;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'sans-serif'; font-size:8pt; color:#222222;&quot;&gt;1, -1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;You can invent your own games and use this program to test how different strategies hold up!&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_37">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>490</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Century Gothic</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>How do parameters alter outcomes?</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_7">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>220</y>
+     <width>281</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Summary&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;This program allows you to choose from 10 different prisoner's dilemma strategies whose details can be found by clicking the &amp;quot;Strategy&amp;quot; button on the main menu. You can specify how many players you would like to include in your simulation by inputting your desired amount as an integer next to the given strategy. The program offers three different modes, which can be activated as needed by clicking the checkbox next to their names, near the bottom right. On the other side, you can choose your output settings, with population maps, various graphs, and a CSV file as options. Simply check whatever you'd like to receive to analyze the data.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Modes&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;The three simulation modes in this program are Round Robin Tournaments, Moran Processes, and Ecological Sustainability Processes. Results vary based upon player numbers, strategies, parameters, noise, and random seeds.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;In Tournament mode, the total number of players are divided in two pairs until no more pairs exist, then each pair competes for the specified number of turns. As players are eliminated, one strategy will win over time.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;A Moran Process is a population process simulating natural selection. Given an initial population of players, the population is iterated in rounds consisting of matches played between each pair of players, with the cumulative total scores recorded. A player is chosen to reproduce proportional to the player’s score in the round and a lower-scoring player is chosen at random to be replaced. The process proceeds in rounds until the population consists of a single player type. That type is declared the winner.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt; background-color:#ffffff;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#ffffff;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;In an Ecological Sustainability Tournament, the participant populations are evolved over a given number of time steps. This is done by determining strategy &amp;quot;fitness&amp;quot; and multiplying succesful strategies according to the given payoff matrix while inferior strategies doie off.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_38">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>180</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Century Gothic</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>How do I use this program?</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_8">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>220</y>
+     <width>281</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;http://axelrod.readthedocs.io&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;axelrod.readthedocs.io&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_41">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>180</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Century Gothic</family>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Where do I learn more about the IPD?</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="qrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

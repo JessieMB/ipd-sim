@@ -1,0 +1,39 @@
+Moran Results
+Reward: 10 Temptation: 20 Sucker: -20 Punishment: -10
+Number of turns: 10
+Noise variable: 0.0
+"Starting Players: [Defector Cooperator Tit For Tat Dynamic Two Tits For Tat Grudger
+ Average Copier Random: 0.5]"
+"Counter({'Defector': 1, 'Cooperator': 1, 'Tit For Tat': 1, 'Dynamic Two Tits For Tat': 1, 'Grudger': 1, 'Average Copier': 1, 'Random: 0.5': 1})","Counter({'Dynamic Two Tits For Tat': 2, 'Defector': 1, 'Cooperator': 1, 'Grudger': 1, 'Average Copier': 1, 'Random: 0.5': 1})","Counter({'Dynamic Two Tits For Tat': 2, 'Defector': 1, 'Cooperator': 1, 'Grudger': 1, 'Average Copier': 1, 'Random: 0.5': 1})","Counter({'Dynamic Two Tits For Tat': 3, 'Cooperator': 1, 'Grudger': 1, 'Average Copier': 1, 'Random: 0.5': 1})","Counter({'Dynamic Two Tits For Tat': 3, 'Cooperator': 1, 'Grudger': 1, 'Average Copier': 1, 'Random: 0.5': 1})","Counter({'Dynamic Two Tits For Tat': 3, 'Cooperator': 1, 'Grudger': 1, 'Average Copier': 1, 'Random: 0.5': 1})","Counter({'Dynamic Two Tits For Tat': 2, 'Cooperator': 2, 'Grudger': 1, 'Average Copier': 1, 'Random: 0.5': 1})","Counter({'Dynamic Two Tits For Tat': 3, 'Cooperator': 2, 'Grudger': 1, 'Average Copier': 1})","Counter({'Dynamic Two Tits For Tat': 4, 'Cooperator': 1, 'Grudger': 1, 'Average Copier': 1})","Counter({'Dynamic Two Tits For Tat': 4, 'Cooperator': 1, 'Grudger': 1, 'Average Copier': 1})","Counter({'Dynamic Two Tits For Tat': 4, 'Cooperator': 1, 'Grudger': 1, 'Average Copier': 1})","Counter({'Dynamic Two Tits For Tat': 5, 'Cooperator': 1, 'Grudger': 1})","Counter({'Dynamic Two Tits For Tat': 5, 'Cooperator': 1, 'Grudger': 1})","Counter({'Dynamic Two Tits For Tat': 5, 'Cooperator': 1, 'Grudger': 1})","Counter({'Dynamic Two Tits For Tat': 6, 'Grudger': 1})","Counter({'Dynamic Two Tits For Tat': 6, 'Grudger': 1})",Counter({'Dynamic Two Tits For Tat': 7})
+Turn #1
+"[-6.0, 6.0, 28.0, 10.0, 20.0, -1.0, -9.0]"
+Turn #2
+"[-3.0, 12.0, 21.0, 25.0, 33.0, 15.0, -1.0]"
+Turn #3
+"[0.0, 12.0, 29.0, 28.0, 41.0, 30.0, -12.0]"
+Turn #4
+"[36.0, 45.0, 51.0, 47.0, 48.0, 29.0, 16.0]"
+Turn #5
+"[45.0, 36.0, 45.0, 50.0, 52.0, 43.0, 13.0]"
+Turn #6
+"[49.0, 42.0, 41.0, 39.0, 42.0, 4.0, 17.0]"
+Turn #7
+"[39.0, 42.0, 48.0, 40.0, 29.0, 24.0, 38.0]"
+Turn #8
+"[45.0, 57.0, 60.0, 47.0, 60.0, 41.0, 60.0]"
+Turn #9
+"[54.0, 46.0, 60.0, 60.0, 60.0, 32.0, 52.0]"
+Turn #10
+"[60.0, 60.0, 57.0, 47.0, 48.0, 32.0, 60.0]"
+Turn #11
+"[44.0, 60.0, 60.0, 56.0, 60.0, 40.0, 60.0]"
+Turn #12
+"[60.0, 60.0, 60.0, 60.0, 60.0, 60.0, 60.0]"
+Turn #13
+"[60.0, 60.0, 60.0, 60.0, 60.0, 60.0, 60.0]"
+Turn #14
+"[60.0, 60.0, 60.0, 60.0, 60.0, 60.0, 60.0]"
+Turn #15
+"[60.0, 60.0, 60.0, 60.0, 60.0, 60.0, 60.0]"
+Turn #16
+"[60.0, 60.0, 60.0, 60.0, 60.0, 60.0, 60.0]"
